@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: pr;
+    src: url('/fonts/pr.woff2');
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, pr;
+}
+
+* {
+    font-family: pr;
+}
+
+.erorr {
+    background-color: darksalmon;
+    color: black;
+    padding: 0.8em;
+    margin-top: 1em;
+    border-radius: 0.2em;
+}

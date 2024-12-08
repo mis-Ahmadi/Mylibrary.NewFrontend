@@ -1,0 +1,21 @@
+:host{
+    display: flex;
+    height: 100vh;
+    background-color: silver;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.8em;
+
+}
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  .b1{
+    width: 100%;
+    background-color:rgb(28, 28, 95);
+    
+  }
